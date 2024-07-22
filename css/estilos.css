@@ -1,0 +1,109 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fcca42;
+    color: rgb(9, 91, 241);
+    padding: 30px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #a18713de;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+nav ul li a {
+    color: rgb(13, 252, 13);
+    text-decoration: none;
+}
+
+main {
+    padding: 30px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.producto {
+    border: 5px solid #6ef06a;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+footer {
+    background-color: #ebde2b;
+    color: rgb(116, 15, 247);
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-media {
+    margin-bottom: 30px;
+}
+
+.social-media a {
+    color: rgb(75, 45, 243);
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+form {
+    display: inline-flex;
+    flex-direction: calc();
+}
+
+form label {
+    margin: 10px 0;
+}
+
+form input, form textarea {
+    margin: 10px 0 15px 0;
+    padding: 5px;
+    border: 3px solid #e2d409;
+    border-radius: 10px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7430f3;
+    color: rgb(250, 247, 80);
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #69fa70;
+}
